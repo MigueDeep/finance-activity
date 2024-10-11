@@ -38,9 +38,9 @@ class _CodeValidationState extends State<CodeValidation> {
                       decoration: const InputDecoration(
                           border: OutlineInputBorder(),
                           isDense: true,
-                          hintText: "000000",
+                          hintText: "------",
                           label: Text("Código de verificación"),
-                          prefixIcon: Icon(Icons.email_outlined)),
+                          prefixIcon: Icon(Icons.code)),
                       keyboardType: TextInputType.number,
                       inputFormatters: [FilteringTextInputFormatter.digitsOnly],
                       controller: _code,
